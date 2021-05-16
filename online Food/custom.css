@@ -1,0 +1,111 @@
+body{
+	font-family:'Roboto Condensed', sans-serif;
+}
+
+.img-responsive{
+	max-width:100%;
+}
+.section{
+	background:url(mainfood.jpg) no-repeat;
+	background-size:cover;
+	height:100vh;
+	position:relative;
+}
+
+.div-first{
+	color:white;
+	top:75%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	position:absolute;
+	
+}
+
+.div-first h1{
+	font-size:40px;
+	text-align:center;
+}
+
+.post{
+	text-align:center;
+}
+
+.post input{
+	display:block;
+	width:80%;
+	text-align:center;
+	margin-right:auto;
+	margin-left:auto;
+	border-radius:2rem;
+	padding:0.6rem;
+	border:none;
+	outline:none;
+}
+
+.post button{
+	
+	background:rgb(3, 252, 198);
+	width:40%; 
+	color:white;
+	padding:10px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	text-align:center;
+	border-radius:1rem;
+	border:none;
+	outline:none;
+	
+}
+
+.section-2{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.div-2{
+	width:32.33%;
+	float:left;
+	margin-top:30px;
+	margin-left:10px;
+	margin-bottom:20px;
+
+}
+
+.div-2 button{
+	background:rgb(252, 3, 136);
+	width:40%;
+	padding:20px;
+	text-align:center;
+	margin-left:80px;
+	margin-right:auto;
+	margin-top:10px;
+	border-radius:3rem;
+	border:none;
+	outline:none;
+	
+}
+
+.div-2:first-of-type{
+	margin-left:0;
+}
+
+
+
+@media screen and (max-width:700px){
+	.div-2{
+		width:100%;
+		float:none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
