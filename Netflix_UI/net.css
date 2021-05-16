@@ -1,0 +1,195 @@
+.clearfix:after{
+	content:"";
+	display:table;
+	clear:both;
+}
+
+a:hover{
+	color:red;
+}
+a:link {
+  text-decoration: none;
+}
+.container{
+	background:url(walk.jpeg) no-repeat;
+	background-position:10% 10%;
+	color:white;
+	font-family:'Raleway', sans-serif;
+	padding:10px;
+}
+
+.container ul{
+	margin:0px;
+}
+.container li{
+	list-style-type:none;
+	float:left;
+	padding:6px;
+}
+
+.navbar{
+	width:50px;
+	height:50px;
+}
+
+.navbar img{
+	width:100%;
+}
+
+.hero_contain{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:130px;
+	margin-bottom: 120px;
+}
+.hero_contain .butcontain button{
+	font-size:15px;
+	border:none;
+	outline:none;
+	padding:5px 6px;
+	border-radius:3px;
+}
+
+
+.hero_contain .butcontain button:first-of-type{
+	width:20%;
+	background:rgb(252, 65, 3);
+	
+}
+
+.hero_contain .butcontain button:last-of-type{
+	width:20%;
+	background:rgb(41, 37, 37);
+	color:white;
+	
+}
+
+
+
+.main-container{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+}
+
+.filter_content{
+	width:20%;
+	float:left;
+	font-family:'Raleway', sans-serif;
+	
+	text-align:center;
+}
+
+.filter_content:hover{
+	box-shadow:0 0 15px 5px rgba(39,43,55,0.15);
+}
+
+.filter_list{
+	margin:0;
+	padding:0;
+	border:1px solid #ddd;
+}
+
+.filter_list li{
+	list-style:none;
+	padding:5px;
+}
+
+.video_content{
+	width:70%;
+	float:right;
+	
+}
+
+.video_search input{
+	width:98%;
+	padding:7px;
+	border:1px solid #ddd;
+}
+
+.video_list{
+	width:45%;
+	float:left;
+	margin-right:20px;
+	margin-bottom:20px;
+	margin-top:5px;
+	border:1px solid #ddd;
+	font-family:'Raleway', sans-serif;
+	padding:10px;
+}
+
+.video_list:hover{
+	box-shadow:0 0 15px 5px rgba(39,43,55,0.15);
+}
+
+.thumbnail img{
+	width:100%;
+	
+}
+.video_list h2{
+	color:gray;
+}
+
+
+.video_content .video_button button{
+	font-size:15px;
+	border:none;
+	outline:none;
+	padding:5px 6px;
+	border-radius:3px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.video_content .video_button button:first-of-type{
+	width:30%;
+	background:rgb(252, 65, 3);
+	
+	
+}
+
+.video_content .video_button button:last-of-type{
+	width:30%;
+	background:rgb(41, 37, 37);
+	color:white;
+	
+	
+}
+
+
+@media screen and (max-width:750px){
+	.filter_content{
+		display:none;
+	}
+	
+	.video_content{
+		width:100%;
+		float:none;
+	}
+}
+
+@media screen and (max-width:560px){
+	
+	
+	.video_content{
+		width:100%;
+		float:none;
+	}
+	
+	.video_list{
+		width:100%;
+		float:none;
+		margin-left:auto;
+		margin-right:auto;
+	}
+}
+
+
+
+
+
+
+
+
